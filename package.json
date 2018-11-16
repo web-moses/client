@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@types/debug": "^0.0.31",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "less": "^3.8.1",
+    "preact": "^8.3.1"
+  },
+  "scripts": {
+    "dev": "WEBPACK_ENV=dev webpack-dev-server",
+    "start": "WEBPACK_ENV=dev webpack-dev-server",
+    "build": "WEBPACK_ENV=build webpack"
+  }
+}
